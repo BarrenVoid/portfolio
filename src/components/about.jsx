@@ -15,7 +15,8 @@ const About = () => {
           to ideate software solutions.
         </p>
 
-        <img 
+        <img
+          className="object-contain"
           src="https://via.placeholder.com/300"
           alt="picture of myself"
         />
