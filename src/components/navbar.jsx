@@ -5,17 +5,17 @@ const NavBar = () => {
     const [isNavOpen, setIsNavOpen] = useState(false);
 
     return(
-        <div className="flex item-center justify-between bg-violet-300 w-full p-6">
-            <h1><a>Tony Le</a></h1>
+        <div id="navbar" className="flex item-center justify-between fixed bg-[#252525] w-full p-6">
+            <h1><a>tony_le.jsx</a></h1>
             <nav>
                 <div className="MOBILE-MENU flex sm:hidden">
                     <div
                         className="HAMBURGER-ICON space-y-2"
                         onClick={() => setIsNavOpen((prev) => !prev)}
                     >
-                        <span className="block h-0.5 w-8 animate-pulse bg-gray-600"></span>
-                        <span className="block h-0.5 w-8 animate-pulse bg-gray-600"></span>
-                        <span className="block h-0.5 w-8 animate-pulse bg-gray-600"></span>
+                        <span className="block h-0.5 w-8 animate-pulse bg-white"></span>
+                        <span className="block h-0.5 w-8 animate-pulse bg-white"></span>
+                        <span className="block h-0.5 w-8 animate-pulse bg-white"></span>
                     </div>
 
                     <div className={isNavOpen ? "showMenuNav" : "hideMenuNav"}>
@@ -24,7 +24,7 @@ const NavBar = () => {
                             onClick={() => setIsNavOpen(false)}
                         >
                             <svg
-                                className="h-8 w-8 text-gray-600"
+                                className="h-8 w-8 text-white"
                                 viewBox="0 0 24 24"
                                 fill="none"
                                 stroke="currentColor"
@@ -37,21 +37,21 @@ const NavBar = () => {
                             </svg>
                         </div>
 
-                        <ul className="MENU-LINK-MOBILE-OPEN flex flex-col items-center justify-between min-h-[250px] uppercase">
-                            <li><a href="#">about</a></li>
-                            <li><a href="#">stack</a></li>
-                            <li><a href="#">projects</a></li>
-                            <li><a href="#">contact</a></li>
+                        <ul className="MENU-LINK-MOBILE-OPEN flex flex-col items-center justify-between min-h-[250px]">
+                            <li><a href="#">// about</a></li>
+                            <li><a href="#">// stack</a></li>
+                            <li><a href="#">// projects</a></li>
+                            <li><a href="#">// contact</a></li>
                         </ul>
                     </div>
                 </div>
                 
                 <div className="DESKTOP-MENU">
-                    <ul className="hidden uppercase space-x-8 sm:flex">
-                        <li><a>about</a></li>
-                        <li><a>stack</a></li>
-                        <li><a>projects</a></li>
-                        <li><a>contact</a></li>
+                    <ul className="hidden space-x-8 sm:flex">
+                        <li><a href="#">// about</a></li>
+                        <li><a href="#">// stack</a></li>
+                        <li><a href="#">// projects</a></li>
+                        <li><a href="#">// contact</a></li>
                     </ul>
                 </div>
             </nav>
@@ -66,7 +66,7 @@ const NavBar = () => {
                     height: 100vh;
                     top: 0;
                     left: 0;
-                    background: white;
+                    background: #212731;
                     z-index: 10;
                     display: flex;
                     flex-direction: column;
