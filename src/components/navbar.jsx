@@ -21,7 +21,7 @@ const NavBar = () => {
                     <div className={isNavOpen ? "showMenuNav" : "hideMenuNav"}>
                         <div
                             className="CROSS-ICON absolute top-0 right-0 p-6"
-                            onClick={() => setIsNavOpen(false)}
+                             onClick={() => setIsNavOpen(false)}
                         >
                             <svg
                                 className="h-8 w-8 text-white"
@@ -38,17 +38,17 @@ const NavBar = () => {
                         </div>
 
                         <ul className="MENU-LINK-MOBILE-OPEN flex flex-col items-center justify-between min-h-[250px]">
-                            <li><a href="#">// about</a></li>
-                            <li><a href="#">// stack</a></li>
-                            <li><a href="#">// projects</a></li>
-                            <li><a href="#">// contact</a></li>
+                            <li onClick={() => setIsNavOpen(false)}><a href="#about">// about</a></li>
+                            <li onClick={() => setIsNavOpen(false)}><a href="#">// stack</a></li>
+                            <li onClick={() => setIsNavOpen(false)}><a href="#">// projects</a></li>
+                            <li onClick={() => setIsNavOpen(false)}><a href="#">// contact</a></li>
                         </ul>
                     </div>
                 </div>
                 
                 <div className="DESKTOP-MENU">
                     <ul className="hidden space-x-8 sm:flex">
-                        <li><a href="#">// about</a></li>
+                        <li><a href="#about">// about</a></li>
                         <li><a href="#">// stack</a></li>
                         <li><a href="#">// projects</a></li>
                         <li><a href="#">// contact</a></li>
