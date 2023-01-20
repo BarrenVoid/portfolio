@@ -8,7 +8,7 @@ const Footer = () => {
           <img className="w-8 h-8 ml-1" alt="react icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" />
         </p>
 
-        <p>
+        <p className="text-center">
           Inprired by
           <a className="text-[#61DBFB]" href="https://rickyla.ca/"> Ricky La</a>,
           <a className="text-[#61DBFB]" href="https://www.jarrodservilla.com/"> Jarrod Servilla</a>, and
