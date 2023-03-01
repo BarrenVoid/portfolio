@@ -9,10 +9,10 @@ const About = () => {
         <p className="font-light sm:font-normal md:w-96 lg:w-2/5">
           Hello, my name is Tony Le, an alumnus from Red River College Polytechnic in the Business Information Technology (BIT) program.
           <br/>
-          <br/> 
-          During my work term at the college, I was a Full Stack Web Developer at the Canadian Horse Auction Alternative, where I was responsible for 
-          creating and updating various pages on the website, making it responsive, and working with development teams and product managers 
-          to ideate software solutions.
+          <br/>
+          During my work term at the college, I was a Full Stack Web Developer at the Canadian Horse Auction Alternative, where I was
+          responsible for creating and updating various pages on the website, making it responsive, and working with development team and
+          product managers to ideate software solutions.
         </p>
 
         <img
